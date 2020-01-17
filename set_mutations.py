@@ -102,7 +102,7 @@ Sum of elements of set A after these operations is 38.
 LA = input()
 A = set(map(int,raw_input().split()))
 
-N = input()
+N = int(input())
 
 for i in xrange(N):
 	k = raw_input().split()
